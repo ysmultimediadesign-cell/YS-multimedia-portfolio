@@ -38,7 +38,7 @@ create table if not exists public.portfolio_items (
       'reception', 'pre-wedding', 'couple-videos', 'save-the-date',
       'birthday', 'anniversary', 'baby-welcome', 'namkaran-barse',
       'shop-opening', 'new-car-delivery', 'vatpournima', 'new-home',
-      -- Legacy IDs retained so existing uploads remain valid and visible.
+
       'bangdiya', 'digital-wedding-invitation', 'cinematic-pre-wedding',
       'couple-reels', 'baby-welcome-shoot', 'baby-shoot', 'model-shoot'
     ))
