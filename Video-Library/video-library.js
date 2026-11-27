@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     grahdev: { title: "Gaondev Videos", description: "Gaondev ceremony videography.", videos: [] },
     "ghana-bangdya": { title: "Ghana Bangdya Videos", description: "Ghana Bangdya ceremony videography.", videos: [] },
     kelvan: { title: "Kelvan Videos", description: "Kelvan ceremony videography.", videos: [] },
+    supari: { title: "Supari Videos", description: "Supari wedding videography.", videos: [] },
     mehendi: { title: "Mehendi Videos", description: "Mehendi ceremony videography.", videos: [] },
     haldi: { title: "Haldi Videos", description: "Haldi ceremony videography.", videos: [] },
     wedding: { title: "Wedding Day Videos", description: "Wedding day videography.", videos: [] },
@@ -40,6 +41,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "new-car-delivery": { title: "Car Delivery Videos", description: "New car delivery event videography.", videos: [] },
     vatpournima: { title: "Vatpournima Videos", description: "Vatpournima event videography.", videos: [] },
     "new-home": { title: "New Home Videos", description: "New home event videography.", videos: [] },
+    "ys-designs": { title: "YS Designs Videos", description: "YS Designs event videography.", videos: [] },
+    "jagran-gondhal": { title: "Jagran-Gondhal Videos", description: "Jagran-Gondhal event videography.", videos: [] },
     "baby-shoot": { title: "Baby Shoot", description: "Baby photography and videography highlights.", videos: [] },
     "model-shoot": { title: "Model Shoot", description: "Model portfolio and fashion shoot highlights.", videos: [] },
   };

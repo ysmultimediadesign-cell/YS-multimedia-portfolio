@@ -34,10 +34,11 @@ create table if not exists public.portfolio_items (
   constraint portfolio_items_category_check check (
     (media_type = 'video' and category in (
       'lagn-patrika', 'digital-lagn-patrika', 'engagement', 'grahdev',
-      'ghana-bangdya', 'kelvan', 'mehendi', 'haldi', 'wedding', 'gruhpravesh',
+      'ghana-bangdya', 'kelvan', 'supari', 'mehendi', 'haldi', 'wedding', 'gruhpravesh',
       'reception', 'pre-wedding', 'couple-videos', 'save-the-date',
       'birthday', 'anniversary', 'baby-welcome', 'namkaran-barse',
       'shop-opening', 'new-car-delivery', 'vatpournima', 'new-home',
+      'ys-designs', 'jagran-gondhal',
 
       'bangdiya', 'digital-wedding-invitation', 'cinematic-pre-wedding',
       'couple-reels', 'baby-welcome-shoot', 'baby-shoot', 'model-shoot'
@@ -156,10 +157,11 @@ alter table public.portfolio_items
   add constraint portfolio_items_category_check check (
     (media_type = 'video' and category in (
       'lagn-patrika', 'digital-lagn-patrika', 'engagement', 'grahdev',
-      'ghana-bangdya', 'kelvan', 'mehendi', 'haldi', 'wedding', 'gruhpravesh',
+      'ghana-bangdya', 'kelvan', 'supari', 'mehendi', 'haldi', 'wedding', 'gruhpravesh',
       'reception', 'pre-wedding', 'couple-videos', 'save-the-date',
       'birthday', 'anniversary', 'baby-welcome', 'namkaran-barse',
       'shop-opening', 'new-car-delivery', 'vatpournima', 'new-home',
+      'ys-designs', 'jagran-gondhal',
       'bangdiya', 'digital-wedding-invitation', 'cinematic-pre-wedding',
       'couple-reels', 'baby-welcome-shoot', 'baby-shoot', 'model-shoot'
     ))
